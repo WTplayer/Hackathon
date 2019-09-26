@@ -99,7 +99,7 @@ public class ServiceAPIRest {
         init();
         log.info("READ ERRORS");
 		try {
-			return Response.status(200).entity(control.getName(cip)).build();
+			return Response.status(200).entity("{ \"com\" : \""+control.getName(cip)+"\"}").build();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
