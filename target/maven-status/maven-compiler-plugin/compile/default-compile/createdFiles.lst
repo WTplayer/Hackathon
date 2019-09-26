@@ -1,4 +1,6 @@
+Entites\Erreur.class
 DAO\InfosDAOImpl.class
 API\ServiceAPIRest.class
 DataBase\Database.class
+Control\ControlErreur.class
 DAO\CrudDAO.class
