@@ -1,0 +1,4 @@
+DAO\InfosDAOImpl.class
+API\ServiceAPIRest.class
+DataBase\Database.class
+DAO\CrudDAO.class

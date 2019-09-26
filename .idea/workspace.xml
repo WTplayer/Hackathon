@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4d697b0-5f63-4e84-9441-22fcad6825e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/API/ServiceAPIRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api-rest-x-mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ApiHackathon.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebContent/sql/UC_ReferentielMagasins_Create.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/PersonneDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/portail/gererSonCompteClient/ClientAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/portail/gererSonCompteClient/ClientAccountDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/portail/gererSonCompteClient/NotifClientDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/portail/gererSonCompteClient/NotifClientDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/campagne/CampagneDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/campagne/CampagneDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/frequentations/FrequentationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/frequentations/FrequentationDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/magasins/EmplacementDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/magasins/EmplacementDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/magasins/MagasinDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/magasins/MagasinsDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/magasins/TypeMagasinDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/magasins/TypeMagasinDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/produitsVendus/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/produitsVendus/ProductDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/produitsVendus/ProductTypeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/produitsVendus/ProductTypeDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/produitsVendus/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/profilsConsommateur/ProfilDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/profilsConsommateur/ProfilDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/referentiels/tarifsLivraison/Withdrawal_methodDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/Dossier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/Personne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/portail/gererSonCompteClient/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/portail/gererSonCompteClient/Customer_account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/portail/gererSonCompteClient/NotifCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/portail/gererSonCompteClient/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/campagne/Campaign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/campagne/TypeCampaign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/frequentations/Frequentation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/magasins/Emplacement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/magasins/Magasin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/magasins/RechercheVide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/magasins/TypeMagasin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/produitsVendus/Error.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/produitsVendus/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/produitsVendus/ProductType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/profilsConsommateur/Profil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/tarifsLivraison/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/tarifsLivraison/CommandLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/tarifsLivraison/Command_state.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/tarifsLivraison/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/tarifsLivraison/Terminal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entites/referentiels/tarifsLivraison/Withdrawal_method.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/DossierApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/PersonneAPIRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/campagne/CampagneAlgorithme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/campagne/CampagneApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/campagne/CampagneService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/client/ClientApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/client/ClientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/frequentations/FrequentationApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/frequentations/FrequentationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/magasins/EmplacementApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/magasins/MagasinApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/magasins/MagasinService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/magasins/TypeMagasinApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/produitsVendus/ProductApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/produitsVendus/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/produitsVendus/ProductTypeApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/profils/ProfilApiRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/profils/ProfilService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RestGT/referentiels/tarifsLivraison/Withdrawalmethod_rest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/Magasins/MagasinDAOStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/Magasins/MagasinTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/Product/ProductDAOStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/Product/ProductTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/Profils/ProfilDAOStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/Profils/ProfilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/gererSonCompteClientTest/ClientAccountDAOStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/gererSonCompteClientTest/ClientDAOStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/trueTest/TU/gererSonCompteClientTest/ClientTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EntryDate</find>
+      <find>DateEntree</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>DateEntree</replace>
+      <replace>dateEntree</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1RJq4BydeF7zlUOJVjxCTmBX30M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4d697b0-5f63-4e84-9441-22fcad6825e7" name="Default Changelist" comment="" />
+      <created>1547025011035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547025011035</updated>
+      <workItem from="1547025015379" duration="341000" />
+      <workItem from="1547025533671" duration="15000" />
+      <workItem from="1552904961012" duration="6534000" />
+      <workItem from="1553069477181" duration="44000" />
+      <workItem from="1553593355443" duration="983000" />
+      <workItem from="1569395383182" duration="1702000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
