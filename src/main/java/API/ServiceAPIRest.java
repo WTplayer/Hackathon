@@ -34,10 +34,9 @@ public class ServiceAPIRest {
     @Path("/read")
     @Produces("application/json")
     public Response readErreurs() {
-        init();
-        log.info("READ ERRORS");
+        
 		try {
-			return Response.status(200).entity(control.readErrors()).build();
+			return Response.status(200).entity("Success").build();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
